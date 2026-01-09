@@ -12,7 +12,7 @@ function auth(req,res ,next){
 app.use(auth)
 
 app.get("/",auth,(req,res)=>{
-    res.send("Hell")
+    res.json({name:"DEKENI Toha"})
 })
 
 
